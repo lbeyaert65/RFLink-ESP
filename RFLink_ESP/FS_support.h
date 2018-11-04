@@ -33,7 +33,7 @@ class _FS_class {
     // **************************************************    
     // **************************************************    
     bool Begin () {
-      return SPIFFS.begin() ;
+      return SPIFFS.begin(true) ;
 // MISCHEIN MOETEN WE VOOR ESP32 nog een format inbouwen ????
 //      if ( !SPIFFS.begin() ) {
 //        // ********************************
