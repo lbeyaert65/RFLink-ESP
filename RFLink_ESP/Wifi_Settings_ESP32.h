@@ -6,8 +6,8 @@
 //  PRIVATE GLOBALS
 // ***********************************************************************
 
-const char* Wifi_Name = "Network_Name";
-const char* Wifi_PWD  = "Network_Password";
+char Wifi_Name[] = "Network_Name";
+char Wifi_PWD[]  = "Network_Password";
 
 // BLYNK
 const char* Auth_1 = "My_Key" ;
